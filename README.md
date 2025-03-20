@@ -15,3 +15,7 @@ When we run `pnpm test` it works fine for `package_three`, but not `package_two`
 ## Reproduction
 
 Run `pnpm test` in the repo root, see tests for `package_two` failing
+
+## StackBlitz env to try
+
+https://stackblitz.com/~/github.com/Koka/vitest_pnpm_problem
