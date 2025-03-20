@@ -1,0 +1,13 @@
+{
+  "name": "@koka58/vitest_pnpm_problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "CI=true pnpm -r test --no-bail --aggregate-output"
+  },
+  "keywords": [],
+  "author": "Konstanit Salikhov <koka58@yandex.ru>",
+  "license": "MIT",
+  "packageManager": "pnpm@8.6.12"
+}
