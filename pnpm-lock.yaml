@@ -18,7 +18,7 @@ importers:
     dependencies:
       '@koka58/package_one':
         specifier: 1.0.0
-        version: link:../package_one
+        version: 1.0.0
     devDependencies:
       vitest:
         specifier: 3.0.7
@@ -264,6 +264,10 @@ packages:
   /@jridgewell/sourcemap-codec@1.5.0:
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
     dev: true
+
+  /@koka58/package_one@1.0.0:
+    resolution: {integrity: sha512-dS8Z8f+3FsFHjjKopQqV8gM3b+6NjGMQmibkd0NRnbHbka9P4i25ITUmBWfgHvsYYUqlexCt9ZN0cfm3/gHXFA==}
+    dev: false
 
   /@rollup/rollup-android-arm-eabi@4.36.0:
     resolution: {integrity: sha512-jgrXjjcEwN6XpZXL0HUeOVGfjXhPyxAbbhD0BlXUB+abTOpbPiN5Wb3kOT7yb+uEtATNYF5x5gIfwutmuBA26w==}
