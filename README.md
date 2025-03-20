@@ -10,8 +10,8 @@ We've encountered a problem in our pnpm monorepo when __mocks__ folder automocki
 
 ## Problem
 
-When we run `pnpm test` it works for `package_three` but not `package_two`, while the only difference between them is the way they import `package_one`
+When we run `pnpm test` it works fine for `package_three`, but not `package_two`, while the only difference between them is the way they import `package_one`
 
 ## Reproduction
 
-Run `pnpm test` in the repo root, see tests for `package_three` failing
+Run `pnpm test` in the repo root, see tests for `package_two` failing
